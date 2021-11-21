@@ -1,0 +1,7 @@
+.Academic Work Samples
+* xref:proposal.adoc[Proposals]
+* xref:content-strategy.adoc[Content Strategy]
+* xref:structured-text.adoc[Structured Text]
+* xref:info-design.adoc[Information Design]
+* xref:mgmt-comms.adoc[Management Communications]
+* xref:lit-reviews.adoc[Literature Reviews]

@@ -1,0 +1,95 @@
+= Rick Larsen
+:listing-caption:
+:caption:
+
+480-650-3393 / ricklarsen4@yahoo.com +
+github: github.com/ricklarsen
+
+== TECHNOLOGIES
+**Asciidoc/Asciidoctor, Antora, jBake, Freemarker, Java, Javascript**
+
+== PROFESSIONAL EXPERIENCE
+
+.Octo Consulting 9/2014-present
+====
+.Technical Writer
+- Maintain customer-facing documentation for enterprise-level open source project
+- Coordinated transition from wiki-based documentation strategy to a “docs-as-code” approach
+- Edit technical content for presentation to audiences of different levels of expertise, from novice to developer
+- Prepare reports and presentations on project capabilities, status, and overall health
+- Plan and execute Agile Sprint goals using Jira and Confluence
+- Facilitate Agile ceremonies and drive team engagement as a certified Scrum Master
+====
+
+
+.RockIT Bootcamp Phoenix, AZ 4/2014 – 6/2014
+====
+- Intensive, Immersive 12 week internship in web development
+- Developed full-featured web applications using a LAMPstack environment
+- Full stack development using HTML5, CSS3, JavaScript, JQuery, PHP, & MySql
+- Completed individual and team projects using Agile methodologies
+====
+
+.Verizon Wireless 11/2011- 6/2014
+====
+.Customer Service Specialist
+- Provide first call resolution to customer’s needs, from technical support to billing issues to plan recommendations, averaging 35-45 unique calls per day
+- Provide detailed account analysis to provide plan recommendations tailored to individual customers
+- Drive revenue by identifying opportunities to position recommendations for devices and accessories to maintain 3-5% revenue growth
+====
+
+Mesa Public Schools 8/2005 - 10/2011
+====
+.English Teacher – 10 -12 grade
+- Prepare instruction for 200-250 students annually to meet state and district curricular objectives
+- Track student progress on state content standards and adjust content delivery for student learning styles when appropriate
+- Report on student achievement both formally through grade software and informally
+- Led onsite team to standardize and revise school-wide department curriculum
+- Co-sponsor of school service learning club with 1000+ service in 2009-10 school year
+====
+
+== EDUCATION
+
+.Northern Arizona University
+====
+.MA in Professional Writing
+- Content management
+- Technical writing
+- Documentation design
+====
+
+.Northern Arizona University		8/2013-5/2014
+====
+- worked toward BS in Technology Management
+- Specializing in Project Management and Management of Info Systems
+====
+
+.Mesa Community College
+====
+.AAS in Computer Programming
+- Languages / technologies studied: C=, Java, JavaScript, VB, ASP,
+- Concepts: Object-oriented programming,
+- Electives: Project Management
+====
+
+.Ottawa University
+====
+.BA in Secondary Education / English
+- Curriculum development
+====
+
+== CERTIFICATIONS
+
+====
+**Certified SAFe® 5 Scrum Master**
+_by Scaled Agile Inc, July 2020_
+====
+
+== OTHER SKILLS
+
+====
+* Public Speaking
+* Video Editing
+* Voice-over (video narration)
+====
+

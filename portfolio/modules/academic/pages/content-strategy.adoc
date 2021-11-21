@@ -1,0 +1,119 @@
+= Content Strategy
+
+The purpose of this class was to provide an introduction to the field of content strategy. I created
+content for audience awareness, content re-use, and social media.
+
+== Content Strategy Plan
+
+This is a content strategy plan I developed for a fictional online forum, called ONPWA, proposed for writing professionals.
+
+.Core Strategy Statement
+====
+
+.Content Product
+What content should we produce, procure, curate, and share?
+
+Content that should be produced in-house is internal or highly specific to the program itself. Examples would be materials like schedules for events, marketing materials, solicitations for content, and feedback. Any terms of membership or bylaws would have to be produced internaly and  vetted by a legal department.
+
+Some of the website content would be produced by faculty or alumni belonging to the organization.
+Some content would be procured or licensed. Syndicated blog posts could be used on the blog or otherwise on the website if preexisting content aligns with the mission. Also, in the event of talks, seminars, and workshops, much of the content and descriptions of those activities would be considered “procured” content.
+
+Social content, such as forum posts, would be curated for appropriateness.
+Sharing content, whether produced or procured, would be a central part of driving engagement with the group and generating interest in its activities and events.
+
+.Who will curate the content? Where will the content live? That is, how should we store it?
+Curating content could be done in many ways. It is probably advisable to have one person ultimately responsible for the vision and direction of the content, but with the authority to delegate the actual execution of the vision to a larger team. How that person is selected could be by appointment from faculty or some type of governing board, or it could be through election from the group at large.
+
+Some form of online storage and management system is needed to keep track of the many different types of content needed. A content management system that can identify the contents and some form of version control to track changes as they are made will make this task much more reasonable.
+
+When changes are needed, it would be ideal to have some form of issue tracker to define the scope of change tasks and to assign them to authors for revision. This can also show, over time, how much effort is being spent on which are of the content and be used for decision making and prioritization. A formal process for reviewing changes helps to know what work is being done, but this process should be as light weight as possible to avoid bogging authors down in documenting their process more that generating content.
+
+.Which content from our inventory can be re-used? How?
+All of the content from the inventory has some potential for reuse, although that reuse does have some limitations. Many of the items that relate to one-time events, such as the writers’ conference, have some pretty time-sensitive elements that would not work well with future reuse, but things like the schedule of events could be reformatted and repackaged for different media. The print schedule should match the version published on the website, for example. And, while the dates of the schedule would change for the following years’ conference, the types of information presented for future conferences is unlikely to change much year to year.
+
+.How will changes be made to the content?
+A typical process would have many of the following elements:
+
+A need for content or revision is identified and reported in the issue tracking system. The task is refined, scoped, and assigned to an author. That author would create or “check out” the appropriate sections in the version control system, and make necessary changes. Most version control software enables sharing for review before finalizing changes to the master copy. Once reviewers are satisfied, the changed version becomes the official version and the issue is closed or resolved in the issue tracker.
+
+====
+
+I also wrote several *personas* for potential users of the ONPWA.
+
+.Persona 2
+====
+
+*Betse Cobblestone*
+
+Age:: 52
+
+Occupation:: Grant Writer, Fundraiser
+
+Location:: Southwestern US. Has lived and worked in Arizona, New Mexico, Colorado, Eastern California
+
+Motivations:: Environmental activism, conservationism, habitat preservation, travel, outdoor activities
+
+Goals:: has been a community leader for most of her career. Loves getting involved in land use issues, very local politics, community organizing. She would like to see her small non-profit grow in influence and members. She is concerned about losing the lands that she grew up exploring.
+
+Interests:: Hiking, exploring, traveling, networking
+
+Desired content on the site::
+
+* Like-minded writers and editors sharing leads on project or maybe even grant opportunities
+* News and stories about her classmates from 15 years ago and their writing successes.
+
+Potential reason for visiting::
+
+* Community
+* Having a forum to engage and discuss opinions with a cohort of similarly-educated and potentially like-minded people. (Even if there are disagreements sometimes.)
+* A chance to read and share professional innovations in and adjacent to her field.
+* keeping up with the whereabouts of previous classmates, who, like her, have spread out around the country.
+====
+
+From there, I wrote about some of the strategies to address the needs of another student's persona.
+
+====
+
+.Write for your Audience & Pain Points
+Persona::
+I chose the personae of _Andrew Cunningham_ and _Zhalong Wei_
+
+Pain Point::
+Andrew seeks to find out about the goings-on of the PW community in a somewhat passive fashion, whereas Zhalong seemed mostly interested in making professional connections and learning about trends in the industry. She also has a geographic distance barrier to attending local events. I wanted to explore different types of social media and see how they would fit the needs of both individuals.
+
+A self-hosted online forum::
+Many web communities have traditionally existed in forums on the groups’ website or similar location. This offers a high level of control over who joins the group and what they are allowed to post. This control comes with the cost of managing accounts and moderating posts in addition to keeping the community going. Modern forum software automates much of this, but it is still an administrative task to be performed.
+
+Forum Content::
+Forums can be very formal, with many rules about what is on- and off—topic content. Many even set aside a channel or board for off-topic socializing or sharing as a community-builder. Posts can be long, and comment threads can take on a life of their own. These threads can be a good way to generate and solicit content, or at least discover content needs. Moderators can “seed” these discussions with open-ended questions to stimulate discussion.
+
+Examples::
+
+. Share your thoughts about your favorite talk at OWNPA-conf 2018.
+. Do you write for Global Markets? What types of strategies do you use to “globalize” your writing to make translation services easier?
+. What can companies do to attract talented technical writers to join their organization?
+====
+
+Lastly, I researched various social media platforms for their fit with the project.
+
+====
+Facebook Group::
+Facebook is a powerful tool for connecting people. Groups are a great way to connect and discuss content in a breezy, informal way. One possible limitation is that Facebook may not be recognized as a legitimate professional tool in many large organizations. It could still serve many of the same functions as a forum, with the caveat that many people are sensitive to receiving multiple notifications during the day. This would probably not be the ideal platform for a user like Andrew, but could be a supplemental arena and a good source for content generation.
+
+Examples::
+. _What’s on your desk right now? How do you like to work?_
+. _What kind of things do you put in your style guide?_
+. _What is the ideal document review process? How close are you to having it?_
+
+Twitter::
+Having an official OWNPA is a great social engagement tool and possible content generation source. It is unlike that significant amounts of content would be posted there, but many articles and relevant news or employment items could/would be shared there. Being primarily time-based (although not as much as it used to be), it is also good for sharing quick updates during events, such as conferences and talks. It’s also good at soliciting quick, real-time opinions on important issues. Relying solely on Twitter and Facebook is not option for someone like Zhalong, as these services are partially or completely blocked in some countries, including China.
+
+Examples::
+. Share your favorite quotes from OWNPA-conf 2018 with the hashtag `#OWNPA2018`
+. Check job posting for a `CONTENT STRATEGIST` at Yoyodyne, Inc. `bit.ly/fakelinkdonotclick`
+. Slides are posted for Elias Beanbag’s TED talk: `fakelink.org/fake`
+
+Listserv / Email::
+Email lists are the “old-school” communication on this list, but still deserves consideration. They are still widely used in many industries. I was surprised to learn they are still the preferred communication method in Open Source software communities, for example. Andrew is the perfect candidate for an email list as most services offer a way to limit how many messages you receive and how often. One cost of using this approach is that the perceived barrier to entry in contributing is somewhat higher, even if this is technologically not the case. There is a reluctance on the part of some people to respond to an email group because that email is sent to the inboxes of all group members and this seems more invasive than posting to a forum or even a Facebook group. Content for this format would probably be less focused on generating discussion then.
+====
+

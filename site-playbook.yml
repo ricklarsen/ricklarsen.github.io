@@ -1,0 +1,19 @@
+site:
+  title: Rick Larsen
+  # the 404 page and sitemap files only get generated when the url property is set
+  # url: https://github.com/ricklarsen/ricklarsen.github.io
+  url: https://ricklarsen.github.io
+  start_page: portfolio:ROOT:index.adoc
+content:
+  sources:
+  - url: https://github.com/ricklarsen/ricklarsen.github.io
+    branches: [build]
+    start_path: portfolio
+  - url: /Users/ricklarsen/portfolio/
+    branches: [build]
+    start_path: notbanksy
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental_ui

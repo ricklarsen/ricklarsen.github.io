@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="task_wbx_wys_ybb">
+    <title>A Simple Salsa is the Best Salsa</title>
+    <shortdesc>Simple recipe for salsa cruda</shortdesc>
+    <taskbody>
+        <context>
+            <p>3-4 medium tomatoes</p>
+            <p>3-4 serrano peppers (5-6, if you are me)</p>
+            <p>1 bunch of green onions</p>
+            <p>several cloves of garlic</p>
+            <p>1 bunch of cilantro</p>
+            <p>salt</p>
+            <p>pepper</p>
+            <p>honey</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>
+                    Dice the tomatoes into a glass or plastic bowl.
+                </cmd>
+                <info>
+                    Optionally, you can chop one tor two of the tomatoes in a food processor or blender,
+                    but keep most of them in chunk form. 
+                </info>
+            </step>
+            <step>
+                <cmd>
+                    Dice the peppers and green onions and finely chop the garlic.
+                </cmd>
+            </step>
+            <step>
+                <cmd>Remove the stems from the cilantro and chop the leaves. 
+                </cmd>
+            </step>
+            <step>
+                <cmd>Finish with a pinch of salt, a pinch of pepper (to taste) and a light drizzle of the honey – not
+                    more than half a tablespoon.</cmd>
+            </step>
+            <step>
+                <cmd>Stir everything together well and refrigerate for a minimum of thirty minutes.</cmd>
+            </step>
+            <step>
+                <cmd>Serve with fresh tortilla chips.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

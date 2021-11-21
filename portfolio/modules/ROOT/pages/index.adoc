@@ -1,0 +1,19 @@
+= Rick Larsen, Technical Writer
+:icons: font
+
+== Biography
+
+I am a seasoned technical writer and content strategist.
+I have written for developers as well as non-technical end users.
+I have specialized in building content delivery systems using a docs-as-code approach.
+I am passionate about getting the right content in front of the right people.
+I hold a master's degree in Professional Writing from Northern Arizona University, studying information design and usability.
+
+I am currently based in the suburbs of Phoenix, Arizona.
+
+== Contact
+
+* https://www.linkedin.com/in/rlarsen4/[@rlarsen4 on LinkedIn]
+* https://github.com/ricklarsen[Github]
+
+> they're good docs, brent

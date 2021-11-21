@@ -1,0 +1,5 @@
+= Web Projects
+
+- https://github.com/rlarsen4[I put all of Moby Dick in a `<marquee>` tag]
+- https://github.com/rlarsen4[cover letter generator]
+- https://github.com/rlarsen4[which Waiting for Godot character are you?]

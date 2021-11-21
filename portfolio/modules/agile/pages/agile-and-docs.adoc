@@ -1,0 +1,21 @@
+= Agile and Documentation
+
+[NOTE]
+====
+This article was written as a summary of Agile concepts for a graduate school assignment. The questions are not mine, but the answers are.
+====
+
+One commonly misunderstood tenet of the Agile Manifesto is Working Software over Documentation. The manifesto has several dichotomies where you definitely favor one side over the other, but obviously you can’t ignore the unfavored side. One struggle we have seen with developers and teams (and I’ve heard this externally too) is that the documentation that is unfavored is more process documentation or internal specifications-- things like lengthy requirements documents. As we see in the examples given by the agile readings, previously everything would be nailed down and tightly documented before any code was written. Agile is meant to be an alternative to that. Solid, user-focused instructional and tutorial documentation should be thought of as a part of the product itself. It should be included in planning, estimating, budgeting, and it should not be an afterthought. The agile modeling site shows this apparent contradiction in two pages: http://agilemodeling.com/essays/documentLate.htm[Document Late] and http://agilemodeling.com/essays/documentContinuously.htm[Document Continuously]. Rather than being two competing models for working, they are really describing two different types of “documentation” for two different audiences and purposes. The _late documentation_ includes all the descriptions of the overall architecture, which should be sketched lightly and filled in when the clear picture is visible. The _continuous documentation_ items are those things that will ship with the product. (`How do I, a user, turn this thing on? Turn it off? Make it dance?` etc..)
+
+== How does agile modeling respond to user needs?
+
+Agile modeling responds to users’ needs by break down those needs into small stories, in the users’ own words to describe the functions needed. Then, a few of those stories are worked at a time, to create a small bit of functionality at a time, which is then shown to users or released to users for feedback and refinement. These iterations can be as short as a week or as long as a few weeks. Mistaken assumptions, theoretically, are caught early and adjusted for.
+
+== Does agile modeling depend on team work?
+
+Agile modeling absolutely depends on team work, and in fact, requires a potentially new vision of *who* the team is. Customers, users, developers, technical communicators, and other stakeholders are very involved in the direction and decision-making. Teams are kept relatively small, focusing on those small stories in small iterations. They are also often cross-functional, with someone representing each of the stakeholder groups on each team. These smaller teams do also need to communicate with each other in order to bring the product together into a cohesive whole.
+
+== What kind of tools does agile modeling require?
+
+Probably the most important tools agile modeling requires are communication tools to make it possible for anyone on the team to know a fairly detail status on the project as a whole. Agile is a highly collaborative effort by design, so being able to capture thoughts and plans very informally, but also transparently are also important. Historically, agile teams have often used intentionally low-tech tools like whiteboards and sticky-notes on a wall to capture progress and model interactions, but there are also web-based versions of many of these tools available as well.
+

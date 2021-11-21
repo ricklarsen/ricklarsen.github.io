@@ -1,0 +1,24 @@
+= Literature Reviews
+
+One important part of any graduate school program is copious amounts of _reading_.
+I have collected some of my informal reviews of the various texts I consumed during my program.
+
+== review of https://www.changinghands.com/book/9780321934116[PeopleWare:Productive Projects and Teams]
+by _Tom DeMarco, Tim Lister_
+
+One lesson that I got from DeMarco’s book is the centering of people over processes, business models, or organizational goals. This is a refreshing change from other management styles, which often view employees as a labor expense more than an investment. I did like that it did make the case that treating employees well and with dignity ultimately helped the company’s bottom line and actually saved money in unexpected ways. It probably varies by industry, but I read recently that in the tech industry, it’s much easier to get funding than it is to attract and retain qualified employees. https://www.cnbc.com/2018/09/06/companies-worry-more-about-access-to-software-developers-than-capital.html That gives credence to the central arguments of Peopleware.
+
+Another key take-away is the idea that many of our management challenges are not technical, but social. Getting people to buy into a team goal and all move in the same direction is more important than getting everyone to an arbitrary level of technical skill in any set of tasks. Setting a high bar for ethics and quality will not eliminate all issues with people, but creating a toxic culture will only encourage toxic behavior. Even in people who otherwise wouldn’t behave that way.
+
+So far, many of DeMarco’s points are about shattering common misconceptions about management and the most effective methods of managing people. In fact, the book shifts our definition of what management even is. Rather than being a “boss” controlling and punishing slacking workers, Peopleware proposes coaching and encouraging workers to produce the quality of work they ultimately want to produce. Most people want to do work at a level that they can be proud of, and don’t need to be micromanaged or constantly monitored, they just need to be given the parameters of what that bar for quality is given the resources to accomplish it. Workers who are rushed or forced to produce less that they feel capable of will ultimately become frustrated and leave.
+The book also spends a lot of time on ideas for creating a comfortable, interruption-free workspace for people to be able to truly perform high-quality, creative work. These principles are often abandoned in the interest of short-term cost savings, but because lost productivity is hard to measure, many don’t see that they end up losing money in the long run.
+
+
+== review of https://www.changinghands.com/book/9781403915818[Public and Professional Writing: Ethics, Imagination and Rhetoric]
+by _Anne Surma_
+
+On the positive side, I think there is a thread running through the book that authority itself is a tough ethical question and as a communicator, we often try to project an authority, sometimes an unearned one. Surma does try to get writers, especially ones speaking on behalf of some organization, to listen to other perspectives, from users to clients to entire other populations. As has been frequently pointed out in this class, those other perspectives may not have more validity that the “authority,” but they do deserve to be heard. If she seems to favor the perspective of the underrepresented, perhaps that is just a matter of imbalance in the amount of voice given to each group. To back away from the political questions of the most recent two chapters (although we can probably map this onto those issues), the idea of involving users in the production of technical documentation is stressed because it isn’t done widely enough. I know from experience that it is difficult to correctly imagine the thought processing of learning a subject when you already know it.
+
+My more critical note is that the language of this book is overly academic at times, obscuring the actual meaning and forcing the reader to fill in a lot of gaps. It may be my personal lack of education in formal philosophy, but I found this in the Dombrowski book as well, a lot of large ideas are referenced or lightly sketched out, but not explained on a level this dumb guy felt confident in. I often had a wildly different interpretation of the Surma text than the rest of the class, probably partially due to having a different perspective, but probably also because it never truly filled in the spaces between quotations of wise dead people.
+
+

@@ -1,1 +1,0 @@
-# ricklarsen.github.io

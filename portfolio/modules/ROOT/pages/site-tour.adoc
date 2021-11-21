@@ -1,0 +1,116 @@
+= About this Portfolio
+
+This page was built with Antora. Here's a look at how I made it.
+
+Antora sites are organized by *Components*, logically related content collections that could be roughly equivalent to a software *Product*. I created a component called *Portfolio*, and collected all items related to my technical writing portfolio into it.
+
+
+== Playbook
+
+I use an Antora *Playbook* file to define the *Site* and the components that will make up the *Site*. I named mine `site-playbook.yml`.
+The `sources` section points to the content repo containing all of the pages.
+
+.site-playbook.yml Fragment
+[source,YAML]
+....
+site:
+  title: Rick Larsen
+  url: https://github.com/ricklarsen/ricklarsen.github.io
+  start_page: portfolio:ROOT:index.adoc
+  sources:
+  - url: https://github.com/ricklarsen.github.io/portfolio/
+    branches: [main]
+    start_path: portfolio
+....
+
+[TIP]
+====
+I also keep a `local-playbook.yml` file where I change the `url` key to the my local copy so I can test changes before I commit them
+====
+
+
+== Modules
+
+Antora components are typically divided into *Modules* which represent topics. An `antora.yml` file declares each module.
+
+.antora.yml
+[source,YAML]
+----
+name: portfolio
+version: 1.0.0
+title: Rick Larsen's Portfolio
+start_page: ROOT:index.adoc
+nav:
+- modules/ROOT/nav.adoc
+- modules/professional/nav.adoc
+- modules/academic/nav.adoc
+- modules/agile/nav.adoc
+----
+
+The directory structure for each module is fairly prescriptive and follows a pattern for file organization
+
+.Directory Structure
+....
+modules
+└ academic #module name
+  └ attachments
+  └ examples
+  └ images
+  └ nav.adoc
+  └ pages
+....
+
+Each module lives in a directory that matches its name in the `antory.yml` file. Within that directory, all content sections are in the `pages` directory. They are all asciidoc formatted files and each file represents a single page in the completed site.
+
+.Contents of `pages`
+....
+modules
+└ academic
+  └ pages
+    └ content-strategy.adoc
+    └ info-design.adoc
+    └ instructions.adoc
+    └ ...
+....
+
+The `examples` directory is for any not asciidoc content included in a page. This be documents or even code files. The `attachments` directory is similar, but for documents or content linked from a page in the site. Images go in the `images` folder.
+
+The other file in every module is the `nav.adoc` file, which defines the navigation for that module.
+
+== Navigation
+
+The `nav.adoc` defines the side navigation for each module and is not automatically generated.
+This gives me the flexibility to define the logical organization of the content. For my portfolio site, the order is largely arbitrary, but I can enforce an order if needed. With the site search functionality, it is possible that a reader might start on any page, but the side navigation can get them back to the path I'd like them to follow.
+
+.nav.adoc
+----
+.Academic Work Samples
+* xref:proposal.adoc[Proposals]
+* xref:content-strategy.adoc[Content Strategy]
+* xref:structured-text.adoc[Structured Text]
+* xref:info-design.adoc[Information Design]
+* xref:mgmt-comms.adoc[Management Communications]
+* xref:lit-reviews.adoc[Literature Reviews]
+----
+
+On the first line, I define the name of the module. This is optional, but I like it. Then I follow with a bulleted list of links (xref) to each page in the module. Finally, the bracketed text is displayed in the navigation.
+
+== Search
+
+I wanted people to be able to search the site, and was grateful for this https://github.com/Mogztter/antora-lunr[Antora-Lunr] add-on that leverages https://lunrjs.com/[Lunr] to index all the content on the site and make it searchable.
+
+
+== UI
+
+I based the style of this site on the default Antora UI bundle. I added some overrides in the `_supplemental_ui` directory, primarily to enable the Lunr search bar. I also redid some of the top navigation to lead to my social media accounts from any page. I may reach a point where I would switch to my own custom UI, if I have enough things I want to change.
+
+.site-playbook.yml
+----
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+----
+
+  supplemental_files: ./supplemental_ui

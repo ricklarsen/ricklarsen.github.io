@@ -1,0 +1,3 @@
+* xref:index.adoc[Home]
+* xref:resume.adoc[Resume]
+* xref:site-tour.adoc[About this site]

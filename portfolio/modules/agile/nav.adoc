@@ -1,0 +1,6 @@
+.Agile Concepts
+* xref:agile-and-docs.adoc[Agile and Documentation]
+* xref:sample1.adoc[People over Process]
+* xref:sample1.adoc[Sprint Planning]
+* xref:sample2.adoc[Stories and Points]
+* xref:sample3.adoc[Retrospectives]

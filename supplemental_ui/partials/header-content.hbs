@@ -1,0 +1,23 @@
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">{{site.title}}</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span>what</span>
+        <span>is</span>
+        <span>this</span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://github.com/ricklarsen/ricklarsen.github.io">Github!</a>
+        <a class="navbar-item" href="https://linkedin.com/in/rlarsen4">LinkedIn!</a>
+      </div>
+      {{#if env.DOCSEARCH_ENABLED}}
+        <div class="navbar-item">
+          <input id="search-input" type="text" placeholder="Search docs">
+        </div>
+      {{/if}}
+    </div>
+  </nav>
+</header>

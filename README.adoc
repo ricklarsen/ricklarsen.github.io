@@ -1,0 +1,5 @@
+= Rick Larsen is
+
+- https://ricklarsen.github.io[a technical writer]
+- https://ricklarsen.github.io[a comedy writer]
+- tall.

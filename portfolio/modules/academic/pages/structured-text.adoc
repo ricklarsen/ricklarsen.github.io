@@ -1,0 +1,10 @@
+= Structured Text
+
+The structured content format I studied was DITA, an XML-based tool for authoring and publishing technical documents and Oxygen, a popular DITA editor. I used them to create a salsa recipe.
+
+.DITA example
+[source,xml]
+....
+include::example$larsen-recipe-1.dita[]
+....
+

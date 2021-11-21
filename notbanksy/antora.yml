@@ -1,0 +1,9 @@
+name: notbanksy
+version: 1.0.0
+title: Rick Larsen is not banksy
+start_page: ROOT:index.adoc
+nav:
+- modules/ROOT/nav.adoc
+- modules/web-projects/nav.adoc
+- modules/comedy-writing/nav.adoc
+- modules/videos/nav.adoc

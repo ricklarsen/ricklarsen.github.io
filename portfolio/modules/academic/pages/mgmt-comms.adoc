@@ -1,0 +1,142 @@
+= Management Communications
+
+I completed a course in Management Communications focusing on reports, case studies, and market research.
+
+I wrote this review of a case study involving employee retention at a fictional company
+
+.Case Study
+====
+Date: 1/24/2019
+
+To: `<PROFESSOR>`
+
+From: Rick Larsen
+
+Subject: Millennium Media Case Study
+
+Problem Statement::
+John Voorenberg, CEO of MIllennium Media, Inc, an established but growing media company, has long been proud of its productive and youthful culture as a means of attracting and retaining talent. As the company tries to expand internationally, however, some deficiencies in inclusivity of the corporate culture threaten to hinder that growth.
+
+Purpose/Objective::
+* Short-Term Goal: Assess the current climate and culture at Millenium to verify if the recently employees leaving do point to systemic problems within the company. Also assess what the impact of these shortcomings might be and what steps to take to improve the situation.
+* Long-Term Goal: Leverage steps taken in the short-term to continue to succeed in new markets and with new audiences. Build a new culture of developing employees to align personal goals to business goals.
+
+Alternative Solutions::
+* Solution #1: Conduct an anonymous  survey of all current employees, with the goal of finding out how employees feel about being respected and appreciated within their immediate work group, business unit and the company as a whole. Use the results to plan initiatives to improve the numbers if needed and reassess periodically.
+** Pros:
+*** Having solid metrics around subjective “cultural” factors can help with setting targets and making tangible improvements.
+*** Even holding the survey can help employees feel “heard” and appreciated.
+Validating whether the recent departures were isolated incidents or indicative of the company culture as a whole.
+** Cons:
+*** Could be very expensive to conduct a survey
+*** May not get a high enough response rate
+*** Employees may not be 100% honest if they don’t believe the survey is truly anonymous.
+* Solution #2: Conduct an initial survey of upper management to identify any cultural diversity gaps.
+** Pros:
+*** Limiting the number of participants will keep the cost and complexity down.
+*** Management has more interaction with a larger pool of individuals than those in non-management positions.
+** Cons:
+*** Upper management is admittedly not diverse and may not have the perspective to comment on other communities.
+*** Sample size may be too small to make definitive analysis.
+** Recommended Solution
+*** Despite the additional costs, the attitudinal survey should include all employees to make sure all perspectives are heard.
+** Action Steps
+*** Design (or commission externally) an attitudinal survey to assess employees’ satisfaction and perceptions around the company culture.
+*** Announce the survey to employees and explain how the data will be used.
+*** Delegate a team to sift through the data collected and make concrete recommendations from it.
+
+====
+
+
+I prepared this audience analysis of Management Communication styles in real-world companies.
+
+====
+Audience Analysis
+
+Prepared by Rick Larsen
+
+.Summary of Organizations
+Adobe Inc.::
+Adobe is a large software corporation with headquarters in the U.S., but offices worldwide. Their primary focus has been multimedia and creativity software, most famously Photoshop and Reader.
+General Dynamics::
+General Dynamics is a large corporation active globally in manufacturing and aerospace. They are primarily known as a defense contractor building large weapon systems, aircraft, and ships. Around since 1952, they have a long history and a more traditional management structure.
+Hilton Hotels::
+Hilton Hotels is a worldwide hotel chain with 163,000 employees between 14 brands and 5500 hotel properties.
+
+.Employee Demographics
+Adobe Inc.::
+As of 2018, Adobe had 19,000 employees worldwide, with about 7600 (40%) living and working  in Silicon Valley in California. Their workforce is 69% male, 31% female. It is also 63% white, 28% asian, 5% hispanic.
+General Dynamics::
+General dynamics employs approximately 98,000 people worldwide. Their workforce is mostly highly skilled and technical.
+Hilton Hotels::
+Hilton has a very diverse and large work force ranging from entry-level and low-skill labor to professional management and business leaders.
+
+.Power Dynamics / Management Structure
+Adobe::
+Adobe has a culture of developing employees from within into leadership roles and focuses on the personal development of individuals. In 2012, they did away with traditional employee reviews, opting for more informal and frequent feedback.
+General Dynamics::
+General Dynamics has a very traditional, hierarchical management structure, although they have made great strides to innovate and modernize.
+Hilton Hotels::
+Management at Hilton stresses personal development and customer focus. Individual locations are given a lot of autonomy, as long as corporate standards are requirements are met.
+
+.Communications Preference
+Adobe::
+Effective communications within Adobe are likely to be informal, creative and visual. A good format for an employee referral program would be a short video that is ey-catching and friendly.
+General Dynamics::
+Given the nature of the management structure, the best method of communication is likely the traditional memo, as it is probably the most familiar to the workforce.
+Hilton Hotels::
+Given the size and diversity of Hilton’s labor pool, a varied approach to communications is best. While it is good to provide written overviews of the program, much will depend on individual frontline managers sharing the details verbally with their employees.
+
+.Non-monetary Incentives
+Adobe::
+Some non-monetary incentives for Adobe employees likely to be successful are recognition and status. Another would be discretionary time to work on projects that might not be in their daily routine but could be useful to their project. Adobe as a culture prizes creativity and autonomy and incentives should reflect that.
+General Dynamics::
+Incentives for this workforce would likely also be status and recognition. Other incentives could be vacation or discretionary time.
+Hilton Hotels::
+Hilton is well-positioned for non-monetary incentives as they can offer employees free accomodations, travel, and flexible schedules.
+
+.References
+. https://www.adobe.com/about-adobe.html?promoid=2NVQCDBQ&mv=other
+. https://news.adobe.com/files/press_release/additional/AdobeQ418_Earnings.pdf
+. https://www.adobe.com/content/dam/acom/en/investor-relations/pdfs/31908102/cm85HLrvzl1y4rFa.pdf
+. https://www.adobe.com/diversity/data.html
+. https://www.gd.com/about-gd
+. https://www.gd.com/about-gd/our-history
+. https://www.gd.com/about-gd/diversity
+. https://www.comparably.com/companies/general-dynamics
+. https://www.comparably.com/companies/general-dynamics
+. https://newsroom.hilton.com/assets/HWW/docs/2018/HLT.CorporateFactSheet-FEB2018.pdf
+. https://www.statista.com/statistics/297758/number-of-hilton-worldwide-employees/
+. https://newsroom.hilton.com/assets/HWW/docs/2016/DiversityAndInclusionFactSheet_4.pdf
+. https://newsroom.hilton.com/corporate/news/hilton-named-a-top-50-company-for-diversity-by-diversityinc
+. https://prezi.com/64vrur0lxxyi/the-management-style-of-hiltons-hotel/
+
+====
+
+I drafted this sample email to an employee regarding performance issues.
+
+====
+Date: 2/17/2019 +
+To: Mary Smith, cc: `<PROFESSOR>` +
+From: Rick Larsen +
+
+*Subject*: Performance appraisal
+
+The purpose of this letter is to establish a performance improvement agreement to be implemented immediately and monitored periodically by your direct manager to ensure sufficient progress is demonstrated.
+
+While company policy allows for some flexibility in regards to tardiness and attendance, your recent on-time attendance record has become a serious area of concern. Additionally, I have observed several incidents of personal calls interfering with your attention to your assigned tasks. Finally, we have recently had several incidents of your work having to be redone and resubmitted.
+
+For all of these reasons, we will be checking in on these matters in a one-on-one meeting in two weeks. We will ensure that:
+
+* You have been on time, both at the beginning of the work day and after lunches and breaks, every day.
+* Personal calls are kept to designated break times.
+* Rework of your submitted assignments will be below 4%. If you have questions on a particular task or feel you need further training, please follow up with Eileen or me.
+
+We want you to succeed at this company and meeting these expectations will help you to achieve that.
+
+
+Respectfully, +
+Rick Larsen
+
+
+====

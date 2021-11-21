@@ -1,0 +1,11 @@
+name: portfolio
+version: 1.0.0
+title: Rick Larsen's Portfolio
+start_page: ROOT:index.adoc
+nav:
+- modules/ROOT/nav.adoc
+- modules/professional/nav.adoc
+- modules/academic/nav.adoc
+- modules/agile/nav.adoc
+- modules/other/nav.adoc
+

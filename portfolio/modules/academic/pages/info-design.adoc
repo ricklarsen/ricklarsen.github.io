@@ -1,0 +1,37 @@
+= Information Design and Usability
+
+== Design Documentation
+
+For this assignment, I created a mockup of a mobile app for locating safe fire exits during an emergency. I have attached the wireframe of the preliminary design and organization of the application.
+
+Download link:{attachmentsdir}/larsen-549-info-design.ppt.pptx[SafeEscape wireframe] presentation.
+
+.Example Slide
+image::larsen-549-final.png[alt=slide, width=500]
+
+== Usability Design
+
+This is a summary of important principles in crafting user-centered content.
+
+====
+
+.Guide Your Readers to Succeed at Their Job
+Software is often sold on the basis of what features it offers, and developers love adding features and solving challenges, but users start up the software with a purpose in mind and a task to accomplish. When you write for them, you need to keep their needs in mind and nudge them along to what they decide is the finish line.
+You should organize your content then, not by the shiny features you’ve added, but by the tasks the users will be expecting to be able to accomplish. Make sure you have a clear vision of what the user will try to accomplish. Keep these jobs relatively simple, and know that your users will find ways to use your software that you never imagined.
+
+.Always give them these things: where to start, what to look for, how to start over
+At a minimum, these three fence posts will get most people through most scenarios. Always give readers a solid footing on where to begin. Show them what things will look like when they succeed. And tell them how to get back to a good state when things go wrong.
+
+.Where to start
+Users will bounce around your documentation and almost never start at the beginning. Always treat each task as if it were the first thing your user did today. It’s easier for them to skip a few navigation steps than it is for them to get their bearings when dropped in at step six. Ok, you probably don’t need to start with Turn your computer on, but assume they are starting at the start-up screen.
+
+.What to look for
+Set clear expectations, so your user knows what reaction to expect from the program if they have followed all the steps correctly. (If your program doesn’t provide any feedback, shame on you.) It’s ok to tell them “This may take a few moments” while whatever processing occurs.
+
+.How to start over
+There are two possible failure scenarios that you may need to layout: They did something wrong, or your program did something wrong. For the first, provide non-judgmental support for editing or undoing any user mistakes. They will appreciate it. We all mkae typos sometimes. For errors with the program, this can be trickier, because we may not be aware ahead of time what problems can arise. If your program is dependent on external factors, such as network connectivity, give your reader a clear sense of when they should or should not retry an action. This is probably a good place to link to any technical support services you offer, as this is most likely the time they will want to reach out.
+
+.Always focus on the user
+Always keep in mind that reason for documentation is to make the user’s experience, and the user’s life, easier. Let this principle guide you, and you will be well on your way.
+
+====

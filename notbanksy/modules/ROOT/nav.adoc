@@ -1,0 +1,7 @@
+.I'm not Banksy
+* xref:index.adoc[Home]
+* xref:contact.adoc[Contact]
+* xref:web-projects.adoc[Web Projects]
+* xref:comedy-writing.adoc[Comedy Writing]
+* xref:videos.adoc[Video]
+* xref:merch.adoc[Merch]
