@@ -9,7 +9,7 @@ content:
   - url: https://github.com/ricklarsen/ricklarsen.github.io
     branches: [build]
     start_path: portfolio
-  - url: /Users/ricklarsen/portfolio/
+  - url: https://github.com/ricklarsen/ricklarsen.github.io
     branches: [build]
     start_path: notbanksy
 ui:

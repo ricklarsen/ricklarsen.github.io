@@ -1,1 +1,8 @@
-= Pimple Text
+= Integration Guide Example
+
+I revised the https://codice.org/ddf[Distributed Data Framework] integration guide to be better suited for developers to use the endpoints and APIs of the system.
+
+View the page http://codice.org/ddf/docs/integrating.html[Integrating with DDF] or download a http://codice.org/ddf/docs/integrating.pdf[PDF].
+
+The intent of this document is to provide the URLs for each endpoint, demonstrate acceptable inputs, and show expected success and failure responses.
+

@@ -1,0 +1,16 @@
+= Java Unit Test
+
+I collaborated on the unit tests for the https://codice.org/ddf[Distributed Data Framework] documentation module.
+
+View the https://github.com/ricklarsen/ddf/blob/master/distribution/docs/src/test/java/ddf/docs/DocumentationTest.java[test class].
+
+The purpose of these tests are to catch common typographical errors or missing files.
+
+The test starts by scraping the rendered xref:maven-doc-build.adoc[documentation artifacts] and collecting all links within and between the documentation pages.
+(We have another method for testing external links.)
+It also makes a collection of all automatic and manual section anchors.
+Then it compares the two lists and any link that doesn't have a matching anchor is considered a broken link and the test fails.
+
+Another test checks for the text `Freemarker error`, which is output when there is a template problem or a section is missed by the template engine.
+
+Finally, in this asciidoctor build, all images are base64 encoded and embedded directly. Therefore, any `img` tag in the output with an empty `src` attribute signals a missing or misnamed image file.

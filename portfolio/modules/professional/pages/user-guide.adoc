@@ -1,1 +1,6 @@
-= Sample Text
+= Example User Guide
+
+I created the end user documentation for the https://codice.org/ddf[Distributed Data Framework].
+
+Find the source code for this content in the https://github.com/ricklarsen/ddf-ui[DDF-UI] repository. As this repository does not currently publish standalone documentation, I have included an [HTML] and a [PDF] copy of the User guide for [Codice Alliance], another open-source project which inherits content from the UI project into its own documentation.
+

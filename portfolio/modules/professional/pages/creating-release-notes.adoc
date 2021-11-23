@@ -1,0 +1,22 @@
+= Creating Release Notes
+
+One of the most important parts of the software release cycle is notifying users and adopters of new changes. I have implemented multiple methods of tracking these changes in Release Notes published along each major and minor release of a project.
+
+== Confluence and Jira
+
+Using an Atlassian Confluence wiki and a Jira macro, I tracked changes by the Jira issues closed. This presents a challenge to developers to accurately mark those Jira issues.
+
+https:https://codice.atlassian.net/wiki/spaces/DDF/pages/500039774/DDF+2.13.0+Release+Notes[Release Notes in Confluence example]
+
+[NOTE]
+====
+This example is a little dated, as this project eventually migrated away from Jira.
+====
+
+The Jira query language can be a powerful tool for discovering `issues fixed`, `dependency upgrades`, and `enhancements` made in a version, but it's still a good idea to curate a list of important updates for users who would rather not dig through a Jira board if they don't have to.
+
+== Commit logs in a CHANGELOG.md file
+
+This is another common approach, especially in open-source projects, but it has some of the same drawbacks as a table of Jira issues. Namely, commits are often not notated with enough information for the users to make decisions about upgrading to a new version.
+
+Having a conversation with development teams, and publishing those notes, is the most user-friendly approach to creating Release Notes.

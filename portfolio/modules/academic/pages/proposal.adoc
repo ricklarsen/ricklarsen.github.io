@@ -1,8 +1,53 @@
 = Proposals
 
+== Qualifications Analysis
+
+I began my research on proposals by reviewing several proposals and preparing a mock analysis memo to decide between them.
+
+Download as link:{attachmentsdir}larsen-605-3.3.docx[Word document]
+
+====
+
+----
+Memorandum
+To: <PROFESSOR>
+From: Rick Larsen
+Date: September 13, 2018
+Subject: Qualifications Analysis
+----
+
+
+I reviewed the Proposal submitted by Dallman Systems, Inc (DSI) to install an electronic security system at the University of Kentucky. The proposal is available through DocumentCloud at the following address: https://www.muckrock.com/foi/kentucky-147/university-of-kentucky-security-system-contract-winners-proposal-5167/#files. It was submitted on December 12, 2012 to the university.
+The proposal includes DSI leading the project management and deliverables, while subcontracting with multiple other companies for specific items needed to complete the project. Advanced Digital Solutions (DSI) was brought on for their expertise in the systems and programming of the final product. The hardware and physical components were provided by Atlas Companies, and the wiring and infrastructure was tasked to Dixon Electric Company. Finally, NextLevel Security Systems (NLSS) would handle the database integration and communication tasks. The project itself seems large and complex, and therefore specialists were included to, ideally, maximize efficiency.
+Review of Qualifications
+Each company submitted its own qualifications section to DSI, which formatted them into the proposal. There were differences in how each company represented itself.
+
+DSI::
+As the primary contractor bidding on this job, DSI provided one of the most detailed qualifications statements in the proposal. As they would largely be provided project management and coordination over the other contractors, their qualifications began with details about the financials of the company and its track record of successful prior projects. Showing the company to be stable and financially solvent presents an image of a responsible partner that will be around to complete the task. The statement opens with a brief overview of the long history of the company, suggesting stability, but doesn’t go into excessive detail about unrelated company background. DSI also gives some of the qualifications of the sub-contracting companies, which is slightly redundant with the statements by those companies, but does reinforce their rationale for assembling the team that they have.
+
+ADS::
+ADS largely eschews the recommended narrative format preferred by Sheehan in favor of a bulleted list of items, some of which have sub-bullets as well. The first section of their statement is not an introduction, but a brief paragraph about the company history and the types of technologies they have used and/or worked with in the past. Secondly, they give an impressive list of other clients for whom they have done projects of similar scope. Finally, they include a list of certifications and licenses earned by their employees. This final section could use some context about how these certifications are relevant to the current project. (They may well be, and the intended audience may well be familiar with them, but in case they were not, it might be a good idea to tailor this list to each proposal. My guess is that this is just an exhaustive list they submit with every proposal)
+
+Atlas::
+Atlas has prepared the most “narrative” statement of qualifications thus far, starting with the company history and telling the story of what the company does and feels they excel in. I felt some of the services section was either redundant with DSI or not strictly relevant to their assumed role in the current project. I did like how they included brief descriptions of the previous clients’ projects. Altogether, this was a strong statement of qualifications.
+
+Dixon::
+Dixon provided perhaps the weakest statement of qualifications as well as the shortest. They also started with a company history, but compared to the other companies on the team, this one was vague and short on details. It seemed the most like it was copy/pasted from the company website and did not reflect any special understanding of the client need.
+
+NLSS::
+Despite being listed in the executive summary and organizational chart, the statement of qualifications for NLSS was not included in the document repository.
+
+Conclusion::
+Evaluating a proposal for such an involved project enabled comparing the approaches taken by several different companies and illustrated the nuances that differentiate them. As a whole, I would say the qualification statements were strong--it was the winning bid, after all. I did get the impression from all of them that they were largely boilerplate and not tailored to the individual client at all. Largely, that comes more from what was included than what was left out. It’s unrealistic to expect to start from scratch each time, but some minor tweaking and a little bit of personalization would dramatically improve these sections.
+
+====
+
+
+== Proposal Projects
+
 I created two proposals during my graduate program, a movie theater project and a short film project.
 
-== Vintage Cinemas Proposal
+=== Vintage Cinemas Proposal
 
 The first is for a movie theater specializing in Vintage and Classic films (pre 1960).
 
@@ -143,7 +188,7 @@ The primary startup expenses are in the rent and renovation costs to set up a fu
 ====
 
 
-== The Sandwich Movie Proposal
+=== The Sandwich Movie Proposal
 
 The second proposal assignment was a crowd-sourcing project using https://indiegogo.com(indiegogo).
 
@@ -191,7 +236,7 @@ link:larsen-605-4.2-sched.xlsx[See attached schedule for details.]
 
 ====
 
-=== SWOT analysis
+==== SWOT analysis
 
 Download as link:larsen-605-3.2.docx[Word document].
 ====

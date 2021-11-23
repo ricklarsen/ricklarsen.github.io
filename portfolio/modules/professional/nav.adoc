@@ -1,5 +1,8 @@
 .Professional Work Samples
-* xref:user-guide.adoc[User Guide]
-* xref:integrator.adoc[Integration Guide]
-* xref:asciidoc.adoc[Asciidoctor Build]
-* xref:antora.adoc[Antora build]
+* xref:maven-doc-build.adoc[Maven Documentation Build]
+* xref:script.adoc[Javascript sample]
+* xref:java-test.adoc[Java unit test sample]
+* xref:user-guide.adoc[User Guide example]
+* xref:integrator.adoc[Integration Guide example]
+* xref:creating-release-notes.adoc[Creating Release Notes]
+* xref:antora.adoc[Antora build example]

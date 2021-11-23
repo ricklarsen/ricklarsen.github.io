@@ -1,1 +1,8 @@
-= Simple Text
+= Prototype Antora Build
+
+I developed [this Antora version] of the content for [DDF] as a proof-of-concept for migrating from the xref:maven-doc-build.adoc[Asciidoctor, jBake, Freemarker] toolchain currently in use.
+
+[NOTE]
+====
+Some of the top navigation was not implemented for this prototype version, but the side navigation, search, and all pages should work.
+====

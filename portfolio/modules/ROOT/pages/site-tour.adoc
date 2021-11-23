@@ -110,7 +110,7 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-
+  supplemental_files: ./supplemental_ui
 ----
 
-  supplemental_files: ./supplemental_ui
+To see the full details of how this site was built, find it on https://github.com/ricklarsen/ricklarsen.github.io[Github].
