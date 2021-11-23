@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Prototype Antora Build :: Rick Larsen</title>
-    <link rel="canonical" href="https://ricklarsen.github.io/portfolio/1.0.0/professional/antora.html">
+    <title>Java Unit Test :: Rick Larsen</title>
+    <link rel="canonical" href="https://ricklarsen.github.io/portfolio/1.0.0/professional/java-test.html">
     <meta name="generator" content="Antora 2.3.4">
     <link rel="stylesheet" href="../../../_/css/site.css">
 <link rel="stylesheet" href="../../../_/css/search.css">
@@ -63,7 +63,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="script.html">Javascript sample</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="java-test.html">Java unit test sample</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -75,7 +75,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="creating-release-notes.html">Creating Release Notes</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="antora.html">Antora build example</a>
   </li>
 </ul>
@@ -163,33 +163,37 @@
   <ul>
     <li><a href="../index.html">Rick Larsen's Portfolio</a></li>
     <li>Professional Work Samples</li>
-    <li><a href="antora.html">Antora build example</a></li>
+    <li><a href="java-test.html">Java unit test sample</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="file:///Users/ricklarsen/portfolio//portfolio/modules/professional/pages/antora.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="file:///Users/ricklarsen/portfolio//portfolio/modules/professional/pages/java-test.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Prototype Antora Build</h1>
+<h1 class="page">Java Unit Test</h1>
 <div class="paragraph">
-<p>I developed [this Antora version] of the content for [DDF] as a proof-of-concept for migrating from the <a href="maven-doc-build.html" class="page">Asciidoctor, jBake, Freemarker</a> toolchain currently in use.</p>
+<p>I collaborated on the unit tests for the <a href="https://codice.org/ddf">Distributed Data Framework</a> documentation module.</p>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
 <div class="paragraph">
-<p>Some of the top navigation was not implemented for this prototype version, but the side navigation, search, and all pages should work.</p>
+<p>View the <a href="https://github.com/ricklarsen/ddf/blob/master/distribution/docs/src/test/java/ddf/docs/DocumentationTest.java">test class</a>.</p>
 </div>
-</td>
-</tr>
-</table>
+<div class="paragraph">
+<p>The purpose of these tests are to catch common typographical errors or missing files.</p>
+</div>
+<div class="paragraph">
+<p>The test starts by scraping the rendered <a href="maven-doc-build.html" class="page">documentation artifacts</a> and collecting all links within and between the documentation pages.
+(We have another method for testing external links.)
+It also makes a collection of all automatic and manual section anchors.
+Then it compares the two lists and any link that doesn&#8217;t have a matching anchor is considered a broken link and the test fails.</p>
+</div>
+<div class="paragraph">
+<p>Another test checks for the text <code>Freemarker error</code>, which is output when there is a template problem or a section is missed by the template engine.</p>
+</div>
+<div class="paragraph">
+<p>Finally, in this asciidoctor build, all images are base64 encoded and embedded directly. Therefore, any <code>img</code> tag in the output with an empty <code>src</code> attribute signals a missing or misnamed image file.</p>
 </div>
 </article>
   </div>
@@ -201,7 +205,7 @@
 </footer>
 <script src="../../../_/js/site.js"></script>
 <script src="../../../_/js/vendor/lunr.js"></script>
-<script src="../../../_/js/vendor/search.js" id="search-script" data-base-path="../../.." data-page-path="/portfolio/1.0.0/professional/antora.html"></script>
+<script src="../../../_/js/vendor/search.js" id="search-script" data-base-path="../../.." data-page-path="/portfolio/1.0.0/professional/java-test.html"></script>
 <script async src="../../../_/../search-index.js"></script>
 <script async src="../../../_/js/vendor/highlight.js"></script>
   </body>

@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Prototype Antora Build :: Rick Larsen</title>
-    <link rel="canonical" href="https://ricklarsen.github.io/portfolio/1.0.0/professional/antora.html">
+    <title>Creating Release Notes :: Rick Larsen</title>
+    <link rel="canonical" href="https://ricklarsen.github.io/portfolio/1.0.0/professional/creating-release-notes.html">
     <meta name="generator" content="Antora 2.3.4">
     <link rel="stylesheet" href="../../../_/css/site.css">
 <link rel="stylesheet" href="../../../_/css/search.css">
@@ -72,10 +72,10 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="integrator.html">Integration Guide example</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="creating-release-notes.html">Creating Release Notes</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="antora.html">Antora build example</a>
   </li>
 </ul>
@@ -163,19 +163,32 @@
   <ul>
     <li><a href="../index.html">Rick Larsen's Portfolio</a></li>
     <li>Professional Work Samples</li>
-    <li><a href="antora.html">Antora build example</a></li>
+    <li><a href="creating-release-notes.html">Creating Release Notes</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="file:///Users/ricklarsen/portfolio//portfolio/modules/professional/pages/antora.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="file:///Users/ricklarsen/portfolio//portfolio/modules/professional/pages/creating-release-notes.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Prototype Antora Build</h1>
+<h1 class="page">Creating Release Notes</h1>
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>I developed [this Antora version] of the content for [DDF] as a proof-of-concept for migrating from the <a href="maven-doc-build.html" class="page">Asciidoctor, jBake, Freemarker</a> toolchain currently in use.</p>
+<p>One of the most important parts of the software release cycle is notifying users and adopters of new changes. I have implemented multiple methods of tracking these changes in Release Notes published along each major and minor release of a project.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_confluence_and_jira"><a class="anchor" href="#_confluence_and_jira"></a>Confluence and Jira</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Using an Atlassian Confluence wiki and a Jira macro, I tracked changes by the Jira issues closed. This presents a challenge to developers to accurately mark those Jira issues.</p>
+</div>
+<div class="paragraph">
+<p>https:https://codice.atlassian.net/wiki/spaces/DDF/pages/500039774/DDF+2.13.0+Release+Notes[Release Notes in Confluence example]</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -185,11 +198,27 @@
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Some of the top navigation was not implemented for this prototype version, but the side navigation, search, and all pages should work.</p>
+<p>This example is a little dated, as this project eventually migrated away from Jira.</p>
 </div>
 </td>
 </tr>
 </table>
+</div>
+<div class="paragraph">
+<p>The Jira query language can be a powerful tool for discovering <code>issues fixed</code>, <code>dependency upgrades</code>, and <code>enhancements</code> made in a version, but it&#8217;s still a good idea to curate a list of important updates for users who would rather not dig through a Jira board if they don&#8217;t have to.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_commit_logs_in_a_changelog_md_file"><a class="anchor" href="#_commit_logs_in_a_changelog_md_file"></a>Commit logs in a CHANGELOG.md file</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is another common approach, especially in open-source projects, but it has some of the same drawbacks as a table of Jira issues. Namely, commits are often not notated with enough information for the users to make decisions about upgrading to a new version.</p>
+</div>
+<div class="paragraph">
+<p>Having a conversation with development teams, and publishing those notes, is the most user-friendly approach to creating Release Notes.</p>
+</div>
+</div>
 </div>
 </article>
   </div>
@@ -201,7 +230,7 @@
 </footer>
 <script src="../../../_/js/site.js"></script>
 <script src="../../../_/js/vendor/lunr.js"></script>
-<script src="../../../_/js/vendor/search.js" id="search-script" data-base-path="../../.." data-page-path="/portfolio/1.0.0/professional/antora.html"></script>
+<script src="../../../_/js/vendor/search.js" id="search-script" data-base-path="../../.." data-page-path="/portfolio/1.0.0/professional/creating-release-notes.html"></script>
 <script async src="../../../_/../search-index.js"></script>
 <script async src="../../../_/js/vendor/highlight.js"></script>
   </body>

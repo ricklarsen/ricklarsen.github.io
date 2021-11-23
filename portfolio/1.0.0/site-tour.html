@@ -27,7 +27,7 @@
         <a class="navbar-item" href="https://linkedin.com/in/rlarsen4">LinkedIn!</a>
       </div>
         <div class="navbar-item">
-          <input id="search-input" type="text" placeholder="Search docs">
+          <input id="search-input" type="text" placeholder="Search site">
         </div>
     </div>
   </nav>
@@ -58,16 +58,25 @@
     <span class="nav-text">Professional Work Samples</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="professional/user-guide.html">User Guide</a>
+    <a class="nav-link" href="professional/maven-doc-build.html">Maven Documentation Build</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="professional/integrator.html">Integration Guide</a>
+    <a class="nav-link" href="professional/script.html">Javascript sample</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="#asciidoc.adoc">Asciidoctor Build</a>
+    <a class="nav-link" href="professional/java-test.html">Java unit test sample</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="professional/antora.html">Antora build</a>
+    <a class="nav-link" href="professional/user-guide.html">User Guide example</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="professional/integrator.html">Integration Guide example</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="professional/creating-release-notes.html">Creating Release Notes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="professional/antora.html">Antora build example</a>
   </li>
 </ul>
   </li>
@@ -156,8 +165,8 @@
     <li><a href="site-tour.html">About this site</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/ricklarsen/ricklarsen.github.io/edit/build/portfolio/modules/ROOT/pages/site-tour.adoc">Edit this Page</a></div>
-  </div>
+  <div class="edit-this-page"><a href="file:///Users/ricklarsen/portfolio//portfolio/modules/ROOT/pages/site-tour.adoc">Edit this Page</a></div>
+</div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
@@ -295,12 +304,17 @@ This gives me the flexibility to define the logical organization of the content.
 <div class="sect1">
 <h2 id="_search"><a class="anchor" href="#_search"></a>Search</h2>
 <div class="sectionbody">
-
+<div class="paragraph">
+<p>I wanted people to be able to search the site, and was grateful for this <a href="https://github.com/Mogztter/antora-lunr">Antora-Lunr</a> add-on that leverages <a href="https://lunrjs.com/">Lunr</a> to index all the content on the site and make it searchable.</p>
+</div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="_ui"><a class="anchor" href="#_ui"></a>UI</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>I based the style of this site on the default Antora UI bundle. I added some overrides in the <code>_supplemental_ui</code> directory, primarily to enable the Lunr search bar. I also redid some of the top navigation to lead to my social media accounts from any page. I may reach a point where I would switch to my own custom UI, if I have enough things I want to change.</p>
+</div>
 <div class="listingblock">
 <div class="title">site-playbook.yml</div>
 <div class="content">
@@ -308,8 +322,11 @@ This gives me the flexibility to define the logical organization of the content.
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-....</pre>
+  supplemental_files: ./supplemental_ui</pre>
 </div>
+</div>
+<div class="paragraph">
+<p>To see the full details of how this site was built, find it on <a href="https://github.com/ricklarsen/ricklarsen.github.io">Github</a>.</p>
 </div>
 </div>
 </div>

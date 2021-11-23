@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Prototype Antora Build :: Rick Larsen</title>
-    <link rel="canonical" href="https://ricklarsen.github.io/portfolio/1.0.0/professional/antora.html">
+    <title>Javascript Example :: Rick Larsen</title>
+    <link rel="canonical" href="https://ricklarsen.github.io/portfolio/1.0.0/professional/script.html">
     <meta name="generator" content="Antora 2.3.4">
     <link rel="stylesheet" href="../../../_/css/site.css">
 <link rel="stylesheet" href="../../../_/css/search.css">
@@ -60,7 +60,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="maven-doc-build.html">Maven Documentation Build</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="script.html">Javascript sample</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -75,7 +75,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="creating-release-notes.html">Creating Release Notes</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="antora.html">Antora build example</a>
   </li>
 </ul>
@@ -163,33 +163,117 @@
   <ul>
     <li><a href="../index.html">Rick Larsen's Portfolio</a></li>
     <li>Professional Work Samples</li>
-    <li><a href="antora.html">Antora build example</a></li>
+    <li><a href="script.html">Javascript sample</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="file:///Users/ricklarsen/portfolio//portfolio/modules/professional/pages/antora.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="file:///Users/ricklarsen/portfolio//portfolio/modules/professional/pages/script.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Prototype Antora Build</h1>
+<h1 class="page">Javascript Example</h1>
 <div class="paragraph">
-<p>I developed [this Antora version] of the content for [DDF] as a proof-of-concept for migrating from the <a href="maven-doc-build.html" class="page">Asciidoctor, jBake, Freemarker</a> toolchain currently in use.</p>
+<p>I wrote this script to solve a need in the <a href="https://codice.org/ddf">Distributed Data Framework</a> to collapse the lower levels of the Table of Contents in longer documents. This was to make it easier for readers to navigate through topics.</p>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
 <div class="paragraph">
-<p>Some of the top navigation was not implemented for this prototype version, but the side navigation, search, and all pages should work.</p>
+<p>I wrapped in in an HTML document to append it to the completed asciidoctor-build html files.</p>
 </div>
-</td>
-</tr>
-</table>
+<div class="paragraph">
+<p>I attached event listeners to detect when the user clicks on the control, and added or removed classes to hide or show the content.</p>
+</div>
+<div class="listingblock">
+<div class="title">Script example</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-javascript hljs" data-lang="javascript">// Include iframeResizer to fix scrolling issue when displayed in admin-ui.
+++++
+&lt;script type="text/javascript" src="../../webjars/iframe-resizer/2.6.2/js/iframeResizer.contentWindow.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" &gt;
+"use strict";
+
+function makeTocExpandable() {
+	var level = 1;
+
+	while (level &lt; 6) {
+	const tocHeading = document.querySelectorAll(".sectlevel" + level + "&gt;li");
+		for (var i = tocHeading.length - 1; i &gt;= 0; i--) {
+			const childLevels = tocHeading[i].querySelector("ul li");
+			if (childLevels) {
+				tocHeading[i].innerHTML ='&lt;a class="expandable"&gt;+ &lt;/a&gt;' + tocHeading[i].innerHTML + '';
+			}
+		}
+		const levelUp = level + 1
+		const higherlevels = document.querySelectorAll(".sectlevel" + levelUp );
+
+		for (var i = higherlevels.length - 1; i &gt;= 0; i--) {
+			higherlevels[i].classList.add("collapsed");
+		}
+		level++;
+	}
+
+}
+
+function expandList(section) {
+	const currentSection = section.target.parentNode;
+
+	currentSection.querySelector("ul").classList.remove("collapsed");
+	currentSection.querySelector(".expandable").innerHTML = "- ";
+	currentSection.querySelector(".expandable").removeEventListener("click", expandList);
+	currentSection.querySelector(".expandable").classList.add("expanded");
+	currentSection.querySelector(".expanded").classList.remove("expandable");
+	currentSection.querySelector(".expanded").addEventListener("click", collapseList);
+}
+
+function collapseList(section) {
+	const currentSection = section.target.parentNode;
+
+	currentSection.querySelector("ul").classList.add("collapsed");
+	currentSection.querySelector(".expanded").innerHTML = "+ ";
+	currentSection.querySelector(".expanded").removeEventListener("click", collapseList);
+	currentSection.querySelector(".expanded").classList.add("expandable");
+	currentSection.querySelector(".expandable").classList.remove("expanded");
+	currentSection.querySelector(".expandable").addEventListener("click", expandList);
+}
+
+function addTocListeners() {
+	const expandableSections = document.querySelectorAll(".expandable")
+	const expandedSections = document.querySelectorAll(".expanded")
+
+	for (var i = expandableSections.length - 1; i &gt;= 0; i--) {
+		expandableSections[i].addEventListener("click", expandList);
+	}
+	for (var i = expandedSections.length - 1; i &gt;= 0; i--) {
+		expandedSections[i].addEventListener("click", collapseList);
+	}
+}
+
+function wrapScrollElements(selector) {
+  document.querySelectorAll( selector ).forEach( elem =&gt; {
+    const div = document.createElement( 'div' );
+    div.className = "scroll-wrapper";
+    elem.parentElement.insertBefore(div, elem);
+    div.appendChild(elem);
+  });
+}
+
+document.onreadystatechange = () =&gt; {
+	if (document.readyState === 'complete') {
+	  // The page is fully loaded
+		makeTocExpandable();
+		addTocListeners();
+	    wrapScrollElements('table.tableblock');
+	    wrapScrollElements('.CodeRay');
+	    wrapScrollElements('.admonitionblock');
+	}
+};
+&lt;/script&gt;
+&lt;style&gt;
+.collapsed {display: none;}
+.scroll-wrapper {overflow-x: auto;}
+&lt;/style&gt;
+++++</code></pre>
+</div>
 </div>
 </article>
   </div>
@@ -201,7 +285,7 @@
 </footer>
 <script src="../../../_/js/site.js"></script>
 <script src="../../../_/js/vendor/lunr.js"></script>
-<script src="../../../_/js/vendor/search.js" id="search-script" data-base-path="../../.." data-page-path="/portfolio/1.0.0/professional/antora.html"></script>
+<script src="../../../_/js/vendor/search.js" id="search-script" data-base-path="../../.." data-page-path="/portfolio/1.0.0/professional/script.html"></script>
 <script async src="../../../_/../search-index.js"></script>
 <script async src="../../../_/js/vendor/highlight.js"></script>
   </body>
